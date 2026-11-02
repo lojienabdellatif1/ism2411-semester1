@@ -1,4 +1,4 @@
-#exercise 1 building the list 
+exercise 1 building the list 
 print("---exercise 1 building the list ---")
 
 inventory=["pen","notebook"]
@@ -94,4 +94,4 @@ print(f"average: {amount}")
 
 #Reflections 
 #1: I did not know that python lists could be standardized so that important info does not get changed. i found that surprising
-#2: I think a business scenario would be running an online business where I sell clothing. it would be must easier to run things through python lists like discounts or shipping prices, as well as edit things as they get updated 
+#2: I think a business scenario would be running an online business where I sell clothing. it would be must easier to run things through python lists like discounts or shipping prices, as well as edit things as they get updated #
