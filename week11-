@@ -1,0 +1,25 @@
+#Customer Dictionary and Lookup 
+#author: Lojien Abdellatif
+
+print("---Exercise 1---Customer Dictionary and Lookup---")
+customer = {
+    "name":"alice",
+    "email": "alice@example.com", #be careful with typing issues 
+    "tier": "gold",
+    "ytd_spend":12400
+}
+print(customer["name"])
+print(customer["email"])
+print(customer["tier"])
+print(customer["ytd_spend"])
+
+print("---exercise 2--- update and add")
+
+customer['phone']= '55-5555' #add new key value to the dictionary
+print(customer)
+
+#update 
+customer['tier']='platinum' #update the value of the key
+print(customer)
+
+print("---exercise 3--- safe lookup")
